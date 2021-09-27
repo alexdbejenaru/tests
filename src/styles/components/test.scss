@@ -1,0 +1,11 @@
+@use '../utils' as *;
+
+.container {
+    background-color: var(--lime-green);
+    padding: rem(10);
+    color:lightcoral;
+}
+
+.title {
+    font-size: rem(50);
+}
