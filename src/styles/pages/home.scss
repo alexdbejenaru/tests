@@ -1,0 +1,23 @@
+@use '../utils/' as *;
+
+.content {
+    max-width: rem(600);
+    margin: rem(40) auto;
+    padding: rem(20);
+}
+
+.blog-preview {
+    padding: rem(10) rem(16);
+    margin: rem(20) 0;
+    border-bottom: rem(1) solid #fafafa;
+
+    h2 {
+        font-size: rem(20);
+        color: #f1356d;
+        margin-bottom: rem(8);
+    }
+
+    &:hover {
+        box-shadow: rem(1) rem(3) rem(5) rgba(0, 0, 0, 0.1);
+    }
+}

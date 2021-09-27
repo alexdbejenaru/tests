@@ -1,0 +1,28 @@
+@use '../utils' as *;
+
+.navbar {
+    padding: rem(20);
+    display: flex;
+    align-items: center;
+    max-width: rem(600);
+    margin: 0 auto;
+    border-bottom: rem(1) solid #f2f2f2;
+
+    h1 {
+        color: #f1356d;
+    }
+
+    .links {
+        margin-left: auto;
+    }
+
+    a {
+        margin-left: rem(16);
+        text-decoration: none;
+        padding: rem(6);
+
+        &:hover {
+            color: #f1356d;
+        }
+    }
+}

@@ -1,14 +1,15 @@
 import "./styles/index.scss";
-import Recipes from './components/Recipes';
+import Home from './pages/Home';
+import Navbar from './components/Navbar';
 
 const App = () => {
     return (
         <>
-            <main>
-                <section>
-                    <h1 className="title">Title</h1>
-                </section>
-                <Recipes />
+            <main className="App">
+                <Navbar />
+                <div className="content">
+                <Home />
+                </div>
             </main>
         </>
     )
